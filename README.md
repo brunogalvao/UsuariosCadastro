@@ -1,5 +1,5 @@
-# http-exercicios
-
+# Cadastro de Usúarios
+Cadastro simples de usúarios com VueJS + Firebase (RealDataBase).
 ## Project setup
 ```
 npm install
