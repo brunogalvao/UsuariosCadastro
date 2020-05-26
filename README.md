@@ -1,29 +1,12 @@
 # Cadastro de Usúarios
 Cadastro simples de usúarios com VueJS + Firebase (RealDataBase).
-## Project setup
+
+## Instale o NPM
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Rodando o VueJS
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
