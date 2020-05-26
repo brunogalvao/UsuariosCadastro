@@ -1,0 +1,135 @@
+/* fonte */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;900&family=Roboto+Condensed:ital,wght@0,300;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/* icon */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+body {
+    color: #4d4d4d;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+strong{ font-weight: 600; }
+
+
+.col-form-label { color: #4d4d4d; }
+
+
+.form-control-lg, .form-control {
+    border-radius: 0px;
+    border-bottom: 1px solid #ced4da;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 0px solid transparent;
+}
+
+.btn-primary {
+    background: #5969F6 !important;
+}
+
+.usuario__titulo {
+    background: url('../img/head.svg') no-repeat bottom center;
+    background-size: cover;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.usuario__titulo p {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 0px;
+}
+
+
+.usuario__titulo span {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 2.38rem;
+    font-weight: 900;
+}
+
+
+.usuario__lista {
+    list-style: none;
+    cursor: pointer;
+}
+
+
+.usuario__lista div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.usuario__lista div span {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    transition: all .3s ease;
+}
+
+
+.usuario__lista div span:first-child{
+    background: orange;
+}
+
+
+.usuario__lista div span:nth-child(2){
+    background: red;
+}
+
+
+.usuario__lista div span:nth-child(2):hover{
+    background: white;
+    color: red;
+}
+
+
+.usuario__lista div span:hover {
+    background: white;
+    color: orange;
+}
+
+
+.usuario__lista div li:hover {
+    text-decoration: underline;
+}
+
+
+.usuario__btnIcon {
+    display: flex;
+    align-items: center;
+    background: #5969F6;
+}
+
+
+.usuario__modal b {
+    font-weight: 600;
+}
+
+
+.usuario__modal .row {
+    margin-bottom: .5rem;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: .5rem;
+}
+
+
+.usuario__modal .row:last-child {
+    border-bottom: 0px
+}
+
+
+.modal-footer, .modal-header {
+    border-top: 0px;
+    border-bottom: 0px;
+}
